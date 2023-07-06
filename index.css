@@ -33,6 +33,13 @@ input[type="email"],input[type="password"]{
     background-color:#fff;
     font-family: 'Roboto',sans-serif;
 }
+input[type="email"], input[type="password"]::placeholder {
+                 
+    text-align: start;
+}
+input[type="password"]:focus{
+    text-align: left;
+}
 input:focus{
     z-index: 1;
     box-shadow: 0 0 1px 2px #8ab6f7;
